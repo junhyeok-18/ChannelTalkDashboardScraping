@@ -14,7 +14,7 @@
 		if (el && !document.getElementById('copy-btn')) {
 			const copyBtn = document.createElement('button');
 			copyBtn.innerHTML =
-				"<div class='b-k-5l5'><span class='b-Dt6vY b--iMho b-nAMDB b-K-KC5 b-yjqfZ'>복사안해줄건데?</span></div>";
+				"<div class='b-k-5l5'><span class='b-Dt6vY b--iMho b-nAMDB b-K-KC5 b-yjqfZ'>복사하기</span></div>";
 			copyBtn.style.marginLeft = '6px';
 			copyBtn.className = 'b-1oeNI b-r4Bne b-qdkXf b-q7Rq7 b-zQNHH';
 			copyBtn.setAttribute('data-bezier-component', 'Button');
@@ -224,3 +224,4 @@
 	observer.observe(document.body, { childList: true, subtree: true });
 
 })();
+
